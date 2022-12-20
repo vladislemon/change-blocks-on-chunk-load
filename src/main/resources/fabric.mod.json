@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "change-blocks-on-chunk-load",
+  "version": "${version}",
+  "name": "Change Blocks On Chunk Load",
+  "description": "Change blocks on chunk load",
+  "authors": [
+    "vladislemon"
+  ],
+  "contact": {
+    "website": "mc.vladislemon.ru",
+    "repo": "https://github.com/vladislemon/change-blocks-on-chunk-load"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ru.vladislemon.mc.changeblocksonchunkload.client.ChangeBlocksOnChunkLoadClient"
+    ],
+    "main": [
+      "ru.vladislemon.mc.changeblocksonchunkload.ChangeBlocksOnChunkLoad"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
